@@ -32,6 +32,13 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-5K4DMZMR');</script>
   <!-- End Google Tag Manager -->
+  <!-- Download CV Button -->
+  <script>
+    function showPopup() {
+      alert("Please reach out to the owner of the portfolio for the CV.");
+    }
+  </script>
+  <!-- End Download CV Button -->
 
 </head>
 
@@ -169,8 +176,8 @@
         </div>
       </div>
       <div class="text-center mt-4">
-        <a class="btn btn-outline-light btn-xl" role="button" href="./assets/pdf/CV-2024.pdf" target="_blank"
-          style="border-radius: 10px"><i class="fa fa-download me-2"></i><span>Download CV</span></a>
+        <a class="btn btn-outline-light btn-xl" role="button" href="#" target="_blank"
+          style="border-radius: 10px" onclick="showPopup()"><i class="fa fa-download me-2"></i><span>Download CV</span></a>
       </div>
     </div>
   </section>
@@ -231,7 +238,7 @@
       <div class="row">
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Location</h4>
-          <p>Bayernstr. 2c<br />86836 Klosterlechfeld</p>
+          <p>Bayernstraße<br />86836 Klosterlechfeld</p>
         </div>
         <div class="col-md-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase">Social Contact</h4><br />
@@ -444,6 +451,7 @@
       </div>
     </div>
   </div>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/script.min.js"></script>
 </body>
